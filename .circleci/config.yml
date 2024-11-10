@@ -28,8 +28,8 @@ jobs:
       - run:
           name: Deploy to Railway App
           command: |
-            cd bankchurn-api 
-            railway up --service=NombreDelServicio
+            cd bankchurn-api
+            railway up --service=airy-courage
             railway up --detach
 
 
@@ -49,3 +49,4 @@ workflows:
             branches:
               only:
                 - main
+
